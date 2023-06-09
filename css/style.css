@@ -219,9 +219,14 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
-.business-info-icon{
- background: var(--Light-color);
- width: 264px;
+.business-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--Light-color);
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .business-info{
