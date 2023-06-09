@@ -126,9 +126,14 @@ gap: 40px;
 }
 
 .header-menu-link {
-color: var(--Dark-color);
+color: var(--state-color);
 padding: 24px 0 24px 0;
 position: relative;
+}
+
+.header-menu-link::after{
+    content: ;
+    position: absolute;
 }
 
 .header-menu-link:is(:hover, :focus) {
