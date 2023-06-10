@@ -363,7 +363,9 @@ padding-bottom: 100px;
 }
 
 .container-footer{
-    display: block
+    display: flex;
+    align-items: baseline;
+
     
 }
 
@@ -377,6 +379,10 @@ padding-bottom: 100px;
     margin-bottom: 16px;
     color: var(--Primary-Brand-color);
     text-transform: uppercase
+}
+
+.footer-info{
+    margin-right: 120px;
 }
 
 .footer-logo-web {
