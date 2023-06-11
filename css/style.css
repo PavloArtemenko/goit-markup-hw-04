@@ -391,6 +391,7 @@ text-transform: capitalize
     line-height: 1.11;
     color: var(--Dark-color);
     margin-bottom: 72px;
+    text-align: center;
 }
 
 .customers-list{
@@ -467,6 +468,11 @@ color: var(--Light-color);
 max-width: 264px;
 }
 
+.container-soc{
+    display: block;
+    
+}
+
 .footer-soc{
     font-weight: 500;
     font-size: 16px;
@@ -474,6 +480,7 @@ max-width: 264px;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px; 
+
 }
 
 .footer-soc-list{
