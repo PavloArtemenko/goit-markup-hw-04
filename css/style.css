@@ -356,6 +356,7 @@ text-transform: capitalize
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 8px;
 }
 
 .team-soc-text{
@@ -470,7 +471,7 @@ max-width: 264px;
 
 .container-soc{
     display: block;
-    
+
 }
 
 .footer-soc{
