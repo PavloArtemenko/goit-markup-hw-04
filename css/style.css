@@ -352,6 +352,35 @@ text-transform: capitalize
     text-align: center;
 }
 
+.team-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.team-soc-text{
+    width: 40px;
+    height: 40px;
+}
+
+.team-soc-img {
+    width: 100%;
+    height: 100%;
+    background-color: var(--Primary-Brand-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-soc-img:is(:hover, :focus){
+    background-color: var(--state-color);
+}
+
+.team-soc-svg{
+    fill: var(--Light-color);
+}
+
 
 /** ---------------------FOOTER--------------- */
 
