@@ -646,9 +646,9 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-hiden {
-    visibility: hidden;
+.is-hidden {
     opacity: 0;
+    visibility: hidden;
     pointer-events: none;
 }
 
