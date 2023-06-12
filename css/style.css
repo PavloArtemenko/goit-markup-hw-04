@@ -537,6 +537,9 @@ max-width: 264px;
 color: var(--White-background-color);
 border: 1px solid transparent;
 background-color: var(--state-color);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+0px 2px 1px rgba(0, 0, 0, 0.08),
+0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .aplication-text {
@@ -574,6 +577,18 @@ background-color: var(--state-color);
     margin-bottom: 72px;
 }
 
+.aplication-img{
+    display: block;
+}
+
+.aplication-img:is(:hover, :focus){
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
+/**-------------------BACKDROP--------------*/
 
 .backdrop{
     position: fixed;
