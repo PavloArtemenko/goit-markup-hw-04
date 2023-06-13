@@ -532,10 +532,7 @@ max-width: 264px;
     color:  var(--Primary-Brand-color);
     cursor: pointer;
     background-color: var(--Light-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);;
     
 }
 
@@ -547,9 +544,7 @@ max-width: 264px;
 color: var(--White-background-color);
 border: 1px solid transparent;
 background-color: var(--state-color);
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-0px 2px 1px rgba(0, 0, 0, 0.08),
-0px 2px 2px rgba(0, 0, 0, 0.12);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .aplication-text {
@@ -682,8 +677,5 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 .btn-close{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
-    top: 32px;
-    right: 32px;
-
 
 }
